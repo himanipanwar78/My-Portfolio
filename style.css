@@ -378,7 +378,7 @@ nav .fas{
 
 /*-------for small screen----------------*/
 
-@media only screen and  (max-width:768px) {
+@media only screen and  (max-width:950px) {
     .mid-section .image{
         display: none;
     }
@@ -430,7 +430,7 @@ nav .fas{
         
     }
     .logo{
-        width:30px;
+        width:35px;
        
     }
     .about-col-2{
@@ -444,7 +444,20 @@ nav .fas{
     height: 500px;
     border-radius: 15px;
         }
-    
+     .row{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+           
+        }
+
+        .work-list{
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap:50px;
+            margin-top: 50px;
+           
+        }
    
 }
 

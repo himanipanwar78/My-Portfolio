@@ -465,8 +465,19 @@ nav .fas{
     #contact .row{
         box-shadow: none;
     }
-   
-   
+    .about-col-1 img{
+         width:250px;
+        height: 500px;
+        border-radius: 15px;
+         }
+    
+   .about-col-2{
+    flex-basis: 40%;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(221, 216, 216);
+
+}
      
    
 }

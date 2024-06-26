@@ -111,8 +111,6 @@ nav ul li a:hover::after{
 .row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-   
 }
 .about-col-1 img{
    
@@ -415,50 +413,7 @@ nav .fas{
         flex-basis:100%;
     
     }
-
-    .header-text{
-        margin-top: 20%;
-        font-size: 15px;
-    }
-    .header-text h1{
-        font-size: 30px;
-        margin-top: 20px;
-        
-    }
-    .logo{
-        width:35px;
-       
-    }
-    nav i {
-        font-size:25px;
-        margin-left:-10px;
-    }
-    .about-col-2{
-        flex-basis: 100%;
-        font-size: 12px;
-        font-weight: 300;
-        color: rgb(221, 216, 216);
-    }
-
- .about-col-1 img{
-    height: 500px;
-    border-radius: 15px;
-        }
-
-        .row{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-           
-        }
-
-        .work-list{
-            display:grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            grid-gap:50px;
-            margin-top: 50px;
-           
-        }
+    
    
 }
 
@@ -466,37 +421,10 @@ nav .fas{
     #contact .row{
         box-shadow: none;
     }
-    
-    nav i {
-        font-size:25px;
-        margin-left:-10px;
-    }
-     
-    #about{
-        padding: 80px 0px;
-        color: #ababab;
-        
-    }
-    
+    #about .about-col-1,.about-col-2{
+       flex-basis: 100%;
+      }
    
-    .about-col-1 img{
-   width:250px;
-        height: 500px;
-        border-radius: 15px;
-        
-        
-     }
-}
-
-@media only screen and  (max-width:380px){
-    .about-col-2{
-        width:200px;
-        font-size: 12px;
-        font-weight: 300;
-        color: rgb(221, 216, 216);
-       
-    }
-
-
-
+     
+   
 }
